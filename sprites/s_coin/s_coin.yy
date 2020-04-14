@@ -2,7 +2,7 @@
     "id": "596c6c17-cf4e-4ec7-9c08-a01d5a7e93ec",
     "modelName": "GMSprite",
     "mvc": "1.12",
-    "name": "sprCoin",
+    "name": "s_coin",
     "For3D": false,
     "HTile": false,
     "VTile": false,
@@ -208,7 +208,7 @@
             "visible": true
         }
     ],
-    "origin": 0,
+    "origin": 9,
     "originLocked": false,
     "playbackSpeed": 15,
     "playbackSpeedType": 0,
@@ -219,6 +219,6 @@
     "textureGroupId": "1225f6b0-ac20-43bd-a82e-be73fa0b6f4f",
     "type": 0,
     "width": 16,
-    "xorig": 0,
+    "xorig": 4,
     "yorig": 0
 }
