@@ -6,7 +6,7 @@ spd = 1.5; /*xy speed*/
 //z var
 z = 0; /*z pos*/
 zfloor = 0; /*z pos of floor beneath you*/
-zspeed = 3; /*speed of jump*/
+zspeed = 6; /*speed of jump*/
 zgrav = 0; /*changes, applies downforce*/
 zjump = false; /*if in air*/
 camrot_spd = 3; /*speed camera rotates*/
