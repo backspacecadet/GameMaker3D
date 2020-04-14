@@ -51,6 +51,15 @@ if (global.z >= 271 and global.z < 359)
 //update depth
 depth = z_axis;
 
+//numbers locked in at 0-360
+if (global.z < 0)
+{
+	global.z = 360;	
+}
+if (global.z > 360)
+{
+	global.z = 0;	
+}
 
 //global cam angle
 camera_set_view_angle(view_camera[0],global.z)
