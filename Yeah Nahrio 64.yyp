@@ -351,6 +351,14 @@
             }
         },
         {
+            "Key": "ebb7f0b6-b251-4806-af39-3b53a711826f",
+            "Value": {
+                "id": "8ba0995c-eb13-4ad7-acfd-b865d172abbb",
+                "resourcePath": "scripts\\scr_camera_rotate_free\\scr_camera_rotate_free.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "edd58c76-4a0d-46df-8972-0f758ae7bb2d",
             "Value": {
                 "id": "bd523769-1749-4efa-92ad-bc9862eb323f",
@@ -364,6 +372,14 @@
                 "id": "e8f8ead6-6530-426e-a189-836b74a26b51",
                 "resourcePath": "views\\eddf47d2-fab8-4077-b448-c4e3a21a7148.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "f0b54713-c24c-4d87-850b-814df3bddfc9",
+            "Value": {
+                "id": "1cde670d-7193-4490-bfb9-93f4e5605ae4",
+                "resourcePath": "scripts\\scr_camera_height_offset\\scr_camera_height_offset.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -415,7 +431,9 @@
         "b7d8a3b9-cf11-4fd2-898a-cf9a2a093bb7",
         "4cdbdc70-2ce0-4a49-81eb-bb8b636baee6",
         "13befb72-0b36-4c6a-9d91-8b1bc1f4794c",
-        "b163abf8-1170-4d85-a80a-baabd24e8653"
+        "b163abf8-1170-4d85-a80a-baabd24e8653",
+        "f0b54713-c24c-4d87-850b-814df3bddfc9",
+        "ebb7f0b6-b251-4806-af39-3b53a711826f"
     ],
     "tutorial": ""
 }

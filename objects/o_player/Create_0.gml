@@ -9,5 +9,3 @@ zfloor = 0; /*z pos of floor beneath you*/
 zspeed = 6; /*speed of jump*/
 zgrav = 0; /*changes, applies downforce*/
 zjump = false; /*if in air*/
-camrot_spd = 3; /*speed camera rotates*/
-global.z = 0; /* direction cam is facing, global z controls the z axis in which objects are drawn globally */

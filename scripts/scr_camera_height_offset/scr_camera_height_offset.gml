@@ -1,0 +1,1 @@
+global.CamYScaleOffset =  (camera_get_view_height(view_camera[view_current]) / camera_get_view_width(view_camera[view_current])) * 2
