@@ -49,5 +49,15 @@ if (global.z >= 271 and global.z < 359)
 //update depth WITH LOWERED Z WHEN ON TOP OF OBJECTS IF YOU DONT DO HALF CLIPPING WILL SOMETIMES OCCUR
 depth = z_axis - z - 5;
 
+//numbers locked in at 0-360
+if (global.z < 0)
+{
+	global.z = 360;	
+}
+if (global.z > 360)
+{
+	global.z = 0;	
+}
+
 //global cam angle
 camera_set_view_angle(view_camera[0],global.z)
