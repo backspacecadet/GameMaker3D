@@ -9,7 +9,7 @@ y_axis = lengthdir_y(1,global.z-90)
 //draw sprite 3d relative to z axis AND to the z position so it can JUMP
 for (var i= 0; i<image_number; i++)
 {
-    draw_sprite_ext(sprite_index,i,x+(i*x_axis)+lengthdir_x(z,-global.z-270),y-(i*y_axis)+lengthdir_y(z,-global.z-270),image_xscale,image_yscale,image_angle,c_white,1);
+    draw_sprite_ext(sprite_index,i,x+((i*global.CamYScaleOffset)*x_axis)+lengthdir_x(z,-global.z-270),y-((i*global.CamYScaleOffset)*y_axis)+lengthdir_y(z,-global.z-270),image_xscale,image_yscale,image_angle,c_white,1);
 }
 
 //set image speed

@@ -9,7 +9,7 @@ y_axis = lengthdir_y(1,global.z-90)
 //draw sprite 3d relative to z axis
 for (var i= 0; i<image_number; i++)
 {
-    draw_sprite_ext(sprite_index,i,x+(i*x_axis),y-(i*y_axis),image_xscale,image_yscale,image_angle,c_white,1);
+    draw_sprite_ext(sprite_index,i,x+((i*global.CamYScaleOffset)*x_axis),y-((i*global.CamYScaleOffset)*y_axis),image_xscale,image_yscale,image_angle,c_white,1);
 }
 
 //set image speed

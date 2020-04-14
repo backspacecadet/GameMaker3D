@@ -127,6 +127,22 @@
             }
         },
         {
+            "Key": "5f973bd0-af01-400e-8acd-00f19ac966a2",
+            "Value": {
+                "id": "9c46a3fd-5c23-42e4-8d58-a0435cea344d",
+                "resourcePath": "objects\\o_control\\o_control.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "640b285f-6397-40e1-a8f5-dc2fb60a8fea",
+            "Value": {
+                "id": "a7476876-5501-4b96-a223-36d7fac24c77",
+                "resourcePath": "scripts\\scr_Initialize\\scr_Initialize.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "69c131c6-812c-4714-9e2b-9c725e777266",
             "Value": {
                 "id": "d1987535-fdd1-4235-b864-aa25649340de",
@@ -392,6 +408,7 @@
         }
     ],
     "script_order": [
+        "640b285f-6397-40e1-a8f5-dc2fb60a8fea",
         "f98d0622-5160-4618-9420-cd087caa1ec5",
         "87c8899b-06eb-4f02-92c9-498e3b28e7c8",
         "a8e73b6d-2e7f-48b7-801e-2450709e89db",
