@@ -4,4 +4,3 @@
 x = x + ((o_player.x - x)*spd);
 y = y + ((o_player.y - y)*spd);
 
-scr_camera_rotate_free()
