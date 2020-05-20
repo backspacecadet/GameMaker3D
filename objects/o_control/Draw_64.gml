@@ -1,0 +1,1 @@
+draw_text(global.ViewX+32,global.ViewY + 32,string(global.Coins))
