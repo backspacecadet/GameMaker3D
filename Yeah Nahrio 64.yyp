@@ -39,14 +39,6 @@
             }
         },
         {
-            "Key": "1055b676-d5ce-47d3-bf2d-3e891d29e59b",
-            "Value": {
-                "id": "e7c0eb38-16bf-4ffe-8ccb-17e46e6c7bd2",
-                "resourcePath": "views\\1055b676-d5ce-47d3-bf2d-3e891d29e59b.yy",
-                "resourceType": "GMFolder"
-            }
-        },
-        {
             "Key": "139bc891-559f-4b5e-ae5a-0b1cfb136916",
             "Value": {
                 "id": "34977618-0d6f-4bb0-bb83-8e9e1f83f97d",
@@ -103,10 +95,26 @@
             }
         },
         {
+            "Key": "3940a88c-c8e7-4828-a11e-c7c78e74a953",
+            "Value": {
+                "id": "90c21d49-7c06-4784-b35d-d2cd80342a68",
+                "resourcePath": "sprites\\s_ramp\\s_ramp.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "433c4ae8-128a-4028-9ba1-91bdf78ed3be",
             "Value": {
                 "id": "0305d1ba-9970-47c3-a342-06fc458d2f6e",
                 "resourcePath": "objects\\o_tree\\o_tree.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "48581a7d-d5d0-48d2-9319-747a805a8f90",
+            "Value": {
+                "id": "42bad8de-6653-46b6-82e6-9689a2c5af7b",
+                "resourcePath": "objects\\o_ramp\\o_ramp.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -124,6 +132,14 @@
                 "id": "2450929e-ddbd-40a5-bc1a-54c91877c1cf",
                 "resourcePath": "scripts\\scr_draw_sprite_3d\\scr_draw_sprite_3d.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "5580b9cd-99f1-4375-b47f-2f12b07d1fa0",
+            "Value": {
+                "id": "e8f3c6c7-09c9-4b87-bd0f-c903a2c6799e",
+                "resourcePath": "sprites\\s_conceptart\\s_conceptart.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -327,11 +343,27 @@
             }
         },
         {
+            "Key": "c6fabf28-8743-433d-94f2-03969f74e76d",
+            "Value": {
+                "id": "0d7fd2df-34a5-44f1-bd63-036a0cd34b47",
+                "resourcePath": "views\\c6fabf28-8743-433d-94f2-03969f74e76d.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "c7709cc3-29e1-4b5b-a2b2-e3323730d3c2",
             "Value": {
                 "id": "fbc2bdba-98a4-4e3b-b93a-fe9d7d4b2c20",
                 "resourcePath": "sprites\\s_tree\\s_tree.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "c7757361-9efd-49f2-8834-b7981a7cdb69",
+            "Value": {
+                "id": "343460d0-04c5-4fc0-b96b-c193cd8581ff",
+                "resourcePath": "objects\\o_ramp_par\\o_ramp_par.yy",
+                "resourceType": "GMObject"
             }
         },
         {
