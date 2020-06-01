@@ -24,3 +24,16 @@ if (z <= zfloor+1/*+1 for sticking glitch on ground*/)
 	zgrav = 0; /*stop applying downforce*/
 	zjump = false; /*no longer in the air*/	
 }
+
+//decellerate spd if no keys are held
+if !keyboard_check(ord("A")) && !keyboard_check(ord("D")) && !keyboard_check(ord("S")) && !keyboard_check(ord("W")) {
+	spd -= spd/8
+}
+
+//cap spd to max_spd
+if spd > max_spd {
+	spd = max_spd
+}
+
+
+

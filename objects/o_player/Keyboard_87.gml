@@ -1,4 +1,7 @@
 ///move up
+
+//accelerated spd var
+spd += (max_spd - spd)/16
 //update instup
 instup = noone;
 //instance in path

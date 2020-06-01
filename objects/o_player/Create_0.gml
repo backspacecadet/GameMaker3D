@@ -2,7 +2,8 @@
 //create camera
 instance_create_depth(x,y,0,o_cam);
 //xy var
-spd = 1.5; /*xy speed*/
+max_spd = 4; /* maxiumum xy speed*/
+spd = 0 /* true xy speed*/
 //z var
 z = 0; /*z pos*/
 zfloor = 0; /*z pos of floor beneath you*/
