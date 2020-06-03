@@ -223,6 +223,14 @@
             }
         },
         {
+            "Key": "6ebeae63-d80b-4f8c-876b-269604684eef",
+            "Value": {
+                "id": "c1180dc4-10e7-4fd3-8d82-65784ba92c49",
+                "resourcePath": "objects\\o_floor_pipe\\o_floor_pipe.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "746610c3-8077-4b8c-838f-47c9312fb932",
             "Value": {
                 "id": "956e1d31-e9c7-4245-9bf6-8fa0fa2c30c7",
@@ -244,6 +252,14 @@
                 "id": "a24664eb-652b-435d-9475-3ea31dece90d",
                 "resourcePath": "views\\763a1d11-66aa-4c7f-ab2f-f41c4a238353.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "7bf82ef2-1a7d-4082-92b4-968d96df20d5",
+            "Value": {
+                "id": "b9f412b8-82fb-44b8-bdfd-668d1ea5def6",
+                "resourcePath": "sprites\\s_wall_pipe\\s_wall_pipe.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -372,6 +388,14 @@
                 "id": "e477a51a-06ef-4b27-9515-0fe02cd7d8bb",
                 "resourcePath": "views\\bf75aa1b-79c7-4edc-98ae-196b259022e8.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "c174f6aa-a7ab-44d7-a213-7da13dc1805c",
+            "Value": {
+                "id": "8bc3703e-421d-46ba-aa9b-ced0bcb959c6",
+                "resourcePath": "objects\\o_wall_pipe\\o_wall_pipe.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -580,6 +604,14 @@
                 "id": "fe375830-ac53-4e80-b8fb-0e4e30528e9e",
                 "resourcePath": "scripts\\scr_depth_3d\\scr_depth_3d.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "fc2cec28-52c4-4dc7-b285-67478e4155eb",
+            "Value": {
+                "id": "c4a9d96b-83ad-474d-aab5-9936b3c581a1",
+                "resourcePath": "sprites\\sprite21\\sprite21.yy",
+                "resourceType": "GMSprite"
             }
         }
     ],
