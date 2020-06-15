@@ -39,6 +39,14 @@
             }
         },
         {
+            "Key": "03250d1f-b5ad-4842-8a07-aefd3d167503",
+            "Value": {
+                "id": "73bb4eb9-290d-4ec3-9e6c-a149b5020a1d",
+                "resourcePath": "sprites\\s_questionmark_wall_grass1\\s_questionmark_wall_grass1.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "04c0520f-2916-4b1e-9d6a-84efda1e3653",
             "Value": {
                 "id": "7f0c5294-94de-4bd4-985d-65b231fe998e",
@@ -59,6 +67,14 @@
             "Value": {
                 "id": "f579fe9f-7d4f-40d5-b4fa-4ff0e7eda8f1",
                 "resourcePath": "objects\\o_generate_debris\\o_generate_debris.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "12d2c77e-d483-466b-88b8-29dc98d5bf76",
+            "Value": {
+                "id": "38a6351a-2dbc-4611-82d6-295c53b7a926",
+                "resourcePath": "objects\\o_qmark_wall1\\o_qmark_wall1.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -114,7 +130,7 @@
             "Key": "1f0ddf8a-a5ac-4078-9327-46cfb2a70783",
             "Value": {
                 "id": "b7cd34a0-b37d-4001-a65f-91425119d090",
-                "resourcePath": "sprites\\s_greenblock2\\s_greenblock2.yy",
+                "resourcePath": "sprites\\s_greenblock_sign\\s_greenblock_sign.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -123,6 +139,14 @@
             "Value": {
                 "id": "948d4171-3508-4c79-a33c-0512aa840e78",
                 "resourcePath": "sprites\\s_player_shadow\\s_player_shadow.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "2b965577-2709-4dd7-a8ce-9aac6bd95a83",
+            "Value": {
+                "id": "a734e71c-5cc4-46aa-a5a8-c8194e9fc0c1",
+                "resourcePath": "sprites\\s_questionmark_wall_grass0\\s_questionmark_wall_grass0.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -191,6 +215,14 @@
             }
         },
         {
+            "Key": "510874ba-c0b9-428e-a982-c612b35d8cc9",
+            "Value": {
+                "id": "bb0ab117-34c4-4199-bcc0-ff6316e8349e",
+                "resourcePath": "sprites\\s_greenblock_sign1\\s_greenblock_sign1.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "5580b9cd-99f1-4375-b47f-2f12b07d1fa0",
             "Value": {
                 "id": "e8f3c6c7-09c9-4b87-bd0f-c903a2c6799e",
@@ -228,6 +260,14 @@
                 "id": "a7476876-5501-4b96-a223-36d7fac24c77",
                 "resourcePath": "scripts\\scr_Initialize\\scr_Initialize.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "68c429ee-81f6-436e-9df8-2e1c54ed957d",
+            "Value": {
+                "id": "76d87b44-f914-4267-9474-77ce5ce80d54",
+                "resourcePath": "objects\\o_tree_spliced\\o_tree_spliced.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -311,11 +351,11 @@
             }
         },
         {
-            "Key": "925d2140-3ec9-4195-86fa-1295ce5d0c0e",
+            "Key": "8db6d271-8799-4119-aa70-5063c6f3b628",
             "Value": {
-                "id": "75614d8a-a983-4fa7-bd73-cef15d4cc4fd",
-                "resourcePath": "sprites\\s_questionmark_wall\\s_questionmark_wall.yy",
-                "resourceType": "GMSprite"
+                "id": "c0cfa950-a48f-48ba-a9fb-67539ffa803b",
+                "resourcePath": "objects\\o_greenblock1\\o_greenblock1.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -348,6 +388,14 @@
                 "id": "95f9d951-09a2-4834-b84d-16bc66d0ae9c",
                 "resourcePath": "views\\9c92f22d-76b9-4036-8f03-97d6c5c43ad2.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "a1d5e7ea-d066-43da-8039-5be0230171e1",
+            "Value": {
+                "id": "5ed191dc-02c6-4c31-8702-dea1b61c0307",
+                "resourcePath": "objects\\o_qmark_wall3\\o_qmark_wall3.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -407,6 +455,14 @@
             }
         },
         {
+            "Key": "b8ae0d24-444c-4a3c-bd4f-9ebe447f2f89",
+            "Value": {
+                "id": "d3d3cc1b-7452-4a26-b0f0-0a594601cdad",
+                "resourcePath": "objects\\o_qmark_wall2\\o_qmark_wall2.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "b8bbb836-63a2-48b4-a88a-e3619d1315e8",
             "Value": {
                 "id": "99bfc270-17f9-46ce-847a-8536eada8986",
@@ -455,6 +511,14 @@
             }
         },
         {
+            "Key": "c561bf3c-550e-48c1-a014-207db29fd237",
+            "Value": {
+                "id": "7df70076-2dbc-4cea-ae60-21e9420a6d33",
+                "resourcePath": "sprites\\s_questionmark_wall_grass3\\s_questionmark_wall_grass3.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "c6fabf28-8743-433d-94f2-03969f74e76d",
             "Value": {
                 "id": "0d7fd2df-34a5-44f1-bd63-036a0cd34b47",
@@ -495,11 +559,27 @@
             }
         },
         {
+            "Key": "ca59d382-579c-426d-b5b9-a6df08ae3dd7",
+            "Value": {
+                "id": "09c08502-abe6-48e7-9a20-56531f80747f",
+                "resourcePath": "sprites\\s_tree2\\s_tree2.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "cc98d028-7bdd-4680-85f3-c87a7baa481e",
             "Value": {
                 "id": "70dc0328-e793-45da-8f9f-e21deb26c501",
                 "resourcePath": "options\\windows\\options_windows.yy",
                 "resourceType": "GMWindowsOptions"
+            }
+        },
+        {
+            "Key": "cce1adc7-d4b7-4bf7-93d4-24fe2f1810de",
+            "Value": {
+                "id": "96073600-8d6e-42d6-8a03-ab72e5ba5b4f",
+                "resourcePath": "sprites\\s_questionmark_wall_grass2\\s_questionmark_wall_grass2.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
