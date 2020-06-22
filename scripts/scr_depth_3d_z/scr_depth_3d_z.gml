@@ -47,7 +47,7 @@ if (global.z >= 271 and global.z < 359)
 }
 
 //update depth WITH LOWERED Z WHEN ON TOP OF OBJECTS IF YOU DONT DO HALF CLIPPING WILL SOMETIMES OCCUR
-depth = z_axis - z - 5;
+depth = z_axis - z/2;
 
 //numbers locked in at 0-360
 if (global.z < 0)

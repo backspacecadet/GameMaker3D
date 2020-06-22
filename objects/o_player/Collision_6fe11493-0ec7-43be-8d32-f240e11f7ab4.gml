@@ -11,3 +11,6 @@ else
 //zfloor = instbelow.z - (instbelow.x - x); /*original code without image angle*/
 zfloor = instbelow.z - ((instbelow.x - lengthdir_x(x,instbelow.image_angle)) - (lengthdir_y(y,instbelow.image_angle)));
 }
+
+//depth
+depth = instbelow.depth -1;

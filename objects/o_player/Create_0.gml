@@ -11,3 +11,4 @@ zspeed = 6; /*speed of jump*/
 zgrav = 0; /*changes, applies downforce*/
 zjump = false; /*if in air*/
 shadow = s_player_shadow;
+ledgegrab = false;

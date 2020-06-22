@@ -1,7 +1,7 @@
 //par
 event_inherited();
 //z jump (when space pressed)
-if (zjump == true)
+if (zjump == true) and (ledgegrab = false)
 {
 	z += zspeed /*z pos goes up*/
 }
@@ -12,7 +12,7 @@ if (!instance_place(x,y,o_block_par))
 
 }
 //if not on ground
-if (!z <= zfloor)
+if (!z <= zfloor) and (ledgegrab = false)
 {
 	z -= zgrav; /*apply downforce on z pos*/
 	zgrav += 0.2; /*grav gets stronger each step*/
@@ -35,5 +35,24 @@ if spd > max_spd {
 	spd = max_spd
 }
 
+//ledge grab only when falling
+//if falling
+if (zgrav >= zspeed) and (z > 0)
+{
+	//if close to ledge
+	//xy check
+	if ((collision_circle(x,y,6,instance_nearest(x,y,o_block_par),false,false))
+	//z check
+	and (z >= instance_nearest(x,y,o_block_par).z - 16) and (z <= instance_nearest(x,y,o_block_par).z))
+	{
+		//grab ledge
+		ledgegrab = true;
+	}
+	else
+	{
+		//not ledge grabbing
+		ledgegrab = false;
+	}
+}
 
 
